@@ -1,0 +1,165 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* navbar */
+.navbar {
+  position: fixed; /* Fija la barra de navegación */
+  top: 0;
+  width: 100%;
+  background-color: #ADD8E6; 
+  z-index: 1000; 
+  padding: 2px 20px; /
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px; 
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: rgb(58, 56, 56);
+  text-decoration: none;
+  padding: 10px 15px; 
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #d4bbbb; 
+  border-radius: 6px; 
+}
+
+
+/* contenedor intro*/
+header.hero .image-section {
+  padding: 20px; 
+}
+
+header.hero .image-section img {
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
+}
+
+.hero {
+  background-color: #242425;
+  color: white;
+  height: 100vh;
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+  padding-top: 70px; 
+}
+
+.content {
+  padding: 40px 20px; 
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+
+/* SECCION DE LOS CURSOS */
+.work-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  padding: 0 140px; 
+  margin-top: 60px;
+}
+
+h2 {
+  margin-bottom: 20px; 
+  margin-top: 20px; 
+}
+
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-info {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.project-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: rgb(0, 153, 255);
+  text-decoration: underline;
+}
+
+.project-info p {
+  margin: 5px 0;
+  color: rgb(105, 91, 83);
+}
+
+.project-media {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-media .url {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(77, 77, 77);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
