@@ -6,7 +6,7 @@ Fue desarrollado con HTML, CSS y JS con el uso de el framework de UI, Bootstrap 
 
 La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye la presentación de la autora del proyecto.
 
-[Proyecto desplegado (https://portafolio-b7-g2-otpr.vercel.app/)](https://portafolio-b7-g2-otpr.vercel.app/)
+[Proyecto desplegado (https://cursos-medicina-dun.vercel.app/)](https://cursos-medicina-dun.vercel.app/)
 
 
 ## Secciones de mi sitio
