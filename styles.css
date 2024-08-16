@@ -1,3 +1,5 @@
+
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -12,8 +14,8 @@ body {
   width: 100%;
   background-color: #ADD8E6; 
   z-index: 1000; 
-  padding: 2px 20px; /
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px 20px; /* Corregido comentario */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Corregido */
 }
 
 .navbar .container {
@@ -54,10 +56,21 @@ body {
   border-radius: 6px; 
 }
 
-
-/* contenedor intro*/
+/* contenedor intro */
 header.hero .image-section {
   padding: 20px; 
+}
+
+h1 {
+  font-family: 'Gupter', sans-serif;
+  font-weight: 700; 
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Gupter', sans-serif;
+  font-weight: 700; 
+  font-size: 40px;
 }
 
 header.hero .image-section img {
@@ -83,8 +96,7 @@ header.hero .image-section img {
   margin: 0 auto; 
 }
 
-
-/* SECCION DE LOS CURSOS */
+/* SECCIÓN DE LOS CURSOS */
 .work-section {
   max-width: 1000px;
   margin: 0 auto;
@@ -101,6 +113,12 @@ h2 {
   margin-top: 20px; 
 }
 
+#intro {
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px; 
+  line-height: 1.6; 
+}
 
 .projects {
   display: grid;
@@ -163,3 +181,13 @@ h2 {
   border-radius: 4px;
   font-size: 0.9em;
 }
+
+h4 {
+  margin-top: 10px; /* Margen superior */
+  margin-left: 15px; /* Margen izquierdo */
+  margin-right: 15px; /* Margen derecho */
+  font-size: 18px; 
+}
+
+
+
